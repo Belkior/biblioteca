@@ -45,10 +45,10 @@ Sistema completo de gerenciamento de biblioteca desenvolvido com React e Tailwin
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/biblioteca-sistema.git
+git clone https://github.com/Belkior/biblioteca.git
 
 # Entre na pasta
-cd biblioteca-sistema
+cd biblioteca
 
 # Instale as dependências
 npm install
@@ -231,7 +231,7 @@ Desenvolvido com ❤️ usando React e Tailwind CSS
 
 Se encontrar algum problema ou tiver sugestões:
 
-- Abra uma [Issue](https://github.com/seu-usuario/biblioteca-sistema/issues)
+- Abra uma [Issue](https://github.com/Belkior/biblioteca/issues)
 - Consulte a [Documentação](README_BIBLIOTECA.md)
 - Verifique os [Guias](GUIA_RAPIDO.md)
 

@@ -1,6 +1,24 @@
 {
-  "name": "teste",
-  "version": "0.1.0",
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de biblioteca com React e Tailwind CSS",
+  "author": "Belkior",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Belkior/biblioteca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Belkior/biblioteca/issues"
+  },
+  "homepage": "https://github.com/Belkior/biblioteca#readme",
+  "keywords": [
+    "biblioteca",
+    "react",
+    "tailwindcss",
+    "crud",
+    "supabase",
+    "gerenciamento"
+  ],
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
