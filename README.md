@@ -1,70 +1,240 @@
-# Getting Started with Create React App
+# 📚 Sistema de Biblioteca
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema completo de gerenciamento de biblioteca desenvolvido com React e Tailwind CSS, preparado para migração futura para Supabase.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat&logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Supabase Ready](https://img.shields.io/badge/Supabase-Ready-3ECF8E?style=flat&logo=supabase&logoColor=white)
 
-In the project directory, you can run:
+## ✨ Funcionalidades
 
-### `npm start`
+- ✅ **CRUD Completo** - Criar, listar, editar e excluir livros
+- 🔍 **Busca Inteligente** - Pesquise por título, autor ou ISBN
+- 🏷️ **Filtros Avançados** - Por categoria, disponibilidade e ordenação
+- 📊 **Estatísticas** - Visualize total de livros e disponíveis
+- 💾 **Local Storage** - Dados persistentes sem necessidade de backend
+- 🎨 **Interface Moderna** - Design responsivo com Tailwind CSS
+- 🚀 **Supabase Ready** - Preparado para migração para nuvem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Demonstração
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Principais Telas
 
-### `npm test`
+- **Lista de Livros** - Grid responsivo com cards modernos
+- **Formulário** - Validação completa e feedback visual
+- **Busca e Filtros** - Interface intuitiva e rápida
+- **Estatísticas** - Badges com informações em tempo real
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias
 
-### `npm run build`
+- **React 18** - Biblioteca JavaScript para interfaces
+- **Tailwind CSS 3.3** - Framework CSS utility-first
+- **Local Storage API** - Persistência de dados local
+- **Supabase Client** - Preparado para backend em nuvem
+- **Custom Hooks** - Gerenciamento de estado otimizado
+- **Service Layer** - Arquitetura escalável e modular
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js 14 ou superior
+- npm ou yarn
 
-### `npm run eject`
+### Passo a Passo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/biblioteca-sistema.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Entre na pasta
+cd biblioteca-sistema
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Inicie o servidor de desenvolvimento
+npm start
+```
 
-## Learn More
+O aplicativo abrirá em [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Como Usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Adicionar Livro
 
-### Code Splitting
+1. Clique no botão **"+ Novo Livro"**
+2. Preencha os campos obrigatórios (Título e Autor)
+3. Adicione informações opcionais (ISBN, Editora, etc.)
+4. Clique em **"Cadastrar Livro"**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Buscar Livros
 
-### Analyzing the Bundle Size
+1. Use a barra de busca no topo
+2. Digite título, autor ou ISBN
+3. Os resultados aparecem instantaneamente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Filtrar Livros
 
-### Making a Progressive Web App
+1. **Por Categoria** - Selecione no dropdown
+2. **Por Disponibilidade** - Todos, Disponíveis ou Emprestados
+3. **Ordenação** - Mais recentes, Título ou Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Editar Livro
 
-### Advanced Configuration
+1. Clique no botão **"Editar"** do livro desejado
+2. Modifique os campos necessários
+3. Clique em **"Atualizar Livro"**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Excluir Livro
 
-### Deployment
+1. Clique no botão **"Excluir"**
+2. Confirme a exclusão
+3. O livro será removido permanentemente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📖 Documentação
 
-### `npm run build` fails to minify
+O projeto inclui documentação completa em português:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **[PLANO_DESENVOLVIMENTO.md](PLANO_DESENVOLVIMENTO.md)** - Plano de desenvolvimento em 7 etapas
+- **[README_BIBLIOTECA.md](README_BIBLIOTECA.md)** - Documentação técnica completa
+- **[GUIA_RAPIDO.md](GUIA_RAPIDO.md)** - Guia rápido de uso com exemplos
+- **[ATUALIZACAO_TAILWIND.md](ATUALIZACAO_TAILWIND.md)** - Documentação da implementação Tailwind
+- **[GUIA_SUPABASE.md](GUIA_SUPABASE.md)** - Guia passo a passo para migração Supabase
+
+## 🗄️ Estrutura do Projeto
+
+```
+biblioteca-sistema/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── BookForm.js      # Formulário de livros
+│   │   ├── BookList.js      # Lista de livros
+│   │   └── BookItem.js      # Card individual
+│   ├── hooks/
+│   │   └── useBooks.js      # Hook customizado
+│   ├── services/
+│   │   ├── storageService.js   # Serviço Local Storage
+│   │   └── supabaseService.js  # Serviço Supabase
+│   ├── App.js               # Componente principal
+│   ├── index.js             # Entry point
+│   └── index.css            # Estilos globais
+├── tailwind.config.js       # Configuração Tailwind
+├── postcss.config.js        # Configuração PostCSS
+└── package.json             # Dependências
+```
+
+## 🎨 Customização
+
+### Cores
+
+Edite `tailwind.config.js` para personalizar as cores:
+
+```javascript
+theme: {
+  extend: {
+    colors: {
+      primary: { /* suas cores */ },
+      secondary: { /* suas cores */ }
+    }
+  }
+}
+```
+
+### Animações
+
+O projeto inclui animações customizadas:
+- `fade-in` - Fade suave
+- `slide-in` - Deslize de cima
+- `bounce-soft` - Bounce suave
+
+## 🔄 Migração para Supabase
+
+O projeto está **100% preparado** para migração para Supabase:
+
+1. Siga o [GUIA_SUPABASE.md](GUIA_SUPABASE.md)
+2. Configure as variáveis de ambiente
+3. Ative o `supabaseService`
+4. Migre os dados
+
+**Sem necessidade de reescrever código!** A arquitetura de serviços permite trocar o backend com apenas uma flag.
+
+## 📊 Modelo de Dados
+
+```javascript
+{
+  id: "uuid",
+  titulo: "string",
+  autor: "string",
+  isbn: "string",
+  editora: "string",
+  anoPublicacao: number,
+  categoria: "string",
+  disponivel: boolean,
+  createdAt: "timestamp",
+  updatedAt: "timestamp"
+}
+```
+
+## 🧪 Testes
+
+```bash
+# Executar testes
+npm test
+
+# Testes com coverage
+npm test -- --coverage
+```
+
+## 📦 Build para Produção
+
+```bash
+# Criar build otimizado
+npm run build
+
+# Os arquivos estarão em /build
+```
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👤 Autor
+
+Desenvolvido com ❤️ usando React e Tailwind CSS
+
+## 🙏 Agradecimentos
+
+- React Team pela incrível biblioteca
+- Tailwind Labs pelo framework CSS
+- Supabase pela plataforma backend
+- Comunidade open source
+
+---
+
+**Nota**: Este projeto foi desenvolvido com foco em boas práticas, código limpo e arquitetura escalável. Perfeito para aprendizado e uso em produção!
+
+## 📞 Suporte
+
+Se encontrar algum problema ou tiver sugestões:
+
+- Abra uma [Issue](https://github.com/seu-usuario/biblioteca-sistema/issues)
+- Consulte a [Documentação](README_BIBLIOTECA.md)
+- Verifique os [Guias](GUIA_RAPIDO.md)
+
+---
+
+⭐ Se este projeto foi útil, considere dar uma estrela no GitHub!
